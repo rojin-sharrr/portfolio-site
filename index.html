@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rojin Sharma &mdash; Software Engineer</title>
+    <meta name="description" content="Portfolio of Rojin Sharma, Software Engineer.">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html" class="name">Rojin Sharma</a>
+            <span class="title">Software Engineer</span>
+        </div>
+        
+        <div class="nav-center">
+            <div class="toggle-pill">
+                <a class="toggle-link active" id="tab-work">Work</a>
+                <a class="toggle-link" id="tab-info">Info</a>
+            </div>
+        </div>
+
+        <div class="nav-right">
+            <a href="https://linkedin.com/in/rojinsharma" target="_blank" rel="noopener">LinkedIn ↗</a>
+            <a href="public/resume.pdf" target="_blank" rel="noopener">Resume ↗</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="window-frame">
+            <div class="window-header">
+                <div class="window-dots">
+                    <div class="dot red"></div>
+                    <div class="dot yellow"></div>
+                    <div class="dot green"></div>
+                </div>
+                <div class="window-plus">+</div>
+            </div>
+            
+            <div class="window-content" id="content-work">
+                <h1 class="hero-title">
+                    I engineer <br>
+                    intelligent systems, <br>
+                    robust backends & <br>
+                    <em>scalable architectures</em>.
+                </h1>
+                
+                <div class="hero-subtext">
+                    Software Engineering Intern at <strong>A5 IT</strong>. <br>
+                    Expected 2027 at <strong>Vanderbilt University</strong>. <br>
+                    Formerly at <strong>JumboTaxes</strong>.
+                </div>
+                
+                <div class="arrow-down">↓</div>
+            </div>
+
+            <!-- Info Section is hidden by default -->
+            <div class="window-content hidden" id="content-info">
+                <div class="info-section">
+                    <h2>Rojin Sharma</h2>
+                    <p>I am a Software Engineer based in Nashville, TN, currently pursuing a Triple Major in Computer Science, Mathematics, and Physics at Vanderbilt University. My passion lies in solving complex infrastructure bottlenecks, designing intelligent systems via RAG capabilities, and scaling modern web backends.</p>
+                    
+                    <div class="info-grid">
+                        <div class="info-label">Experience</div>
+                        <div class="info-desc">
+                            <strong>Software Engineering Intern</strong> <br>
+                            A5 IT, Chicago, IL (Feb 2025 – Present) <br>
+                            Stabilized backend via async job queues, integrating Auth0 RBAC, and conducting robust SQL optimizations.
+                            <br><br>
+                            <strong>Software Engineering Intern</strong> <br>
+                            JumboTaxes, Philadelphia, PA (May 2024 – Aug 2024) <br>
+                            Migrated Django tier to Node.js, slashing processing time by 35%.
+                        </div>
+                    </div>
+                    
+                    <div class="info-grid">
+                        <div class="info-label">Education</div>
+                        <div class="info-desc">
+                            <strong>Vanderbilt University</strong> <br>
+                            B.S. Computer Science, Mathematics & Physics (Expected May 2027) <br>
+                            Dean’s List, James C. Seus Scholarship (full-ride).
+                        </div>
+                    </div>
+
+                    <div class="info-grid">
+                        <div class="info-label">Technologies</div>
+                        <div class="info-desc">
+                            TypeScript, Node.js, Python, C++, React, Next.js, OpenAI, Pinecone, PostgreSQL, AWS S3, Vercel, Docker.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="work-items" class="work-section">
+            <div class="project-card">
+                <div class="project-info">
+                    <h2>StudyBee</h2>
+                    <div class="project-meta">Retrieval Augmented Generation</div>
+                    <p class="project-desc">A unified AI course assistant supporting automated vector-indexing of course materials (PDFs/Slides). Features high-speed instantaneous support and secure AWS S3 IAM file pipelines.</p>
+                    <div class="project-tech">
+                        <span>Node.js</span>
+                        <span>OpenAI</span>
+                        <span>Pinecone</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="project-image">
+                    Visual Demo / Architecture
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-info">
+                    <h2>RecallRay</h2>
+                    <div class="project-meta">Agentic MCP Search</div>
+                    <p class="project-desc">Led semantic context retrieval across Slack, Gmail, and Google Docs via Model Context Protocol (MCP). Built ingestion engines parsing 3M+ documents daily at < 350ms latency.</p>
+                    <div class="project-tech">
+                        <span>MCP</span>
+                        <span>Auth.js</span>
+                        <span>MongoDB</span>
+                        <span>OpenAI</span>
+                    </div>
+                </div>
+                <div class="project-image">
+                    System Architecture
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-info">
+                    <h2>Harmony Quest</h2>
+                    <div class="project-meta">Acoustic Simulation Engine</div>
+                    <p class="project-desc">A low-level guitar sound synthesis engine utilizing the Karplus-Strong algorithm for hyper-realistic tone generation across 3 full octaves in real-time execution.</p>
+                    <div class="project-tech">
+                        <span>C++</span>
+                        <span>Signal Processing</span>
+                        <span>Low Latency</span>
+                    </div>
+                </div>
+                <div class="project-image">
+                    Karplus-Strong Diagram
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
