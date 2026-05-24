@@ -67,9 +67,12 @@ nav {
 }
 
 .nav-center {
-    position: absolute;
+    position: fixed;
     left: 50%;
+    top: 1.35rem;
     transform: translateX(-50%);
+    z-index: 101;
+    transition: all 0.3s ease;
 }
 
 .toggle-pill {
@@ -353,6 +356,9 @@ main {
     nav {
         padding: 1.25rem 2rem;
     }
+    .nav-center {
+        top: 1.1rem;
+    }
     main {
         padding: 8rem 2rem 6rem;
     }
@@ -383,6 +389,7 @@ main {
     /* Floating Navigation Pill at the bottom */
     .nav-center {
         position: fixed;
+        top: auto;
         bottom: 2rem;
         left: 50%;
         transform: translateX(-50%);
