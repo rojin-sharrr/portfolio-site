@@ -271,6 +271,16 @@ main {
     font-weight: 500;
 }
 
+.project-info h2 a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.project-info h2 a:hover {
+    color: var(--text-secondary);
+}
+
 .project-meta {
     font-family: var(--font-serif);
     font-style: italic;
