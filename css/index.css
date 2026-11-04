@@ -319,6 +319,15 @@ main {
     color: var(--text-secondary);
     font-family: var(--font-serif);
     font-style: italic;
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
 }
 
 /* Info Section Content */
